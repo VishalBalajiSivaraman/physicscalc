@@ -19,7 +19,6 @@ import math as mt
 # Syntax: speed(D,T)
 # D: Value of Distance , T:Value of time
 # Return type: float
-
 def speed(D,T):
   print("Speed",D/T)
   
@@ -27,7 +26,6 @@ def speed(D,T):
 # Syntax: relative_error(M,E)
 # M: value of Mean absolute error , E: value of Absolute error
 # Return type: float
-
 def relative_error(M,E):
   print("Relative error",M/E)
   
@@ -35,7 +33,6 @@ def relative_error(M,E):
 # Syntax: density(M,V)
 # M: value of Mass , V: value of Volume
 # Return type: float
-
 def density(M,V):
   print("Density:",M/V)
   
@@ -43,7 +40,6 @@ def density(M,V):
 # Syntax: volume(L,B,H)
 # L: value of Length , B: value of Breadth ,H: value of Height
 # Return type: float
-
 def volume(L,B,H):
   print("Volume:",L*B*H)
   
@@ -51,7 +47,6 @@ def volume(L,B,H):
 # Syntax: area(L,B)
 # L: value of Length , B: value of Breadth 
 # Return type: float
-
 def area(L,B):
   print("Area:",L*B)
   
@@ -59,7 +54,6 @@ def area(L,B):
 # Syntax: error_muldiv(a,b,c,d)
 # a: value of del-a , b: value of  del-b ,c: value of a ,d: value of b
 # Return type: float 
-
 def error_muldiv(a,b,c,d):
   x=((a/c)+(b/d))
   return x
@@ -68,7 +62,6 @@ def error_muldiv(a,b,c,d):
 # Syntax: error_addsub(a,b)
 # a: value of del-a , b: value of  del-b 
 # Return type: float 
-
 def error_addsub(a,b):
   p=(a+b)
   return p
@@ -77,7 +70,6 @@ def error_addsub(a,b):
 # Syntax: percentage_error(M,E)
 # M: value of Mean absolute error , E: value of Absolute error
 # Return type: float
-
 def percentage_error(M,E):
   print("Percentage Error:",(M/E)*100,"%")
   
@@ -85,7 +77,6 @@ def percentage_error(M,E):
 # Syntax: absolute_error(M,E)
 # a: list of error values , n: number of terms 
 # Return type: float
-  
 def absolute_error(a,n):
   if len(a)==n:
     A=np.array(a)
@@ -99,7 +90,6 @@ def absolute_error(a,n):
 # Syntax: meanabsolute_error(M,E)
 # a: list of error values , n: number of terms 
 # Return type: float    
- 
 def meanabsolute_error(a,n):
   if(len(a)==n):
     b=[]
