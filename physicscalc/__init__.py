@@ -16,6 +16,10 @@ def relative_error(M,E):
   print("Relative error")
   return M/E
 
+def error_addsub(a,b):
+  p=(a+b)
+  return p
+
 def percentage_error(M,E):
   print("Percentage Error:",(M/E)*100,"%")
 
