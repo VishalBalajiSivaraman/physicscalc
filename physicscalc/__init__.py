@@ -8,8 +8,12 @@
 # >>> pip install physicscalc
 
 # Essential modules
-import math as mt
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy as sp 
+from scipy import interpolate as ie
+import math as mt
 
 # speed() - Returns the value of speed using the given parameters
 # Syntax: speed(D,T)
