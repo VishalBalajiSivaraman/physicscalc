@@ -10,7 +10,6 @@
 # Essential modules
 import math as mt
 import numpy as np
-import vectoralg as vg
 
 # speed() - Returns the value of speed using the given parameters
 # Syntax: speed(D,T)
