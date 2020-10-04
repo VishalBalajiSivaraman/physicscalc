@@ -12,7 +12,9 @@ import math as mt
 import numpy as np
 import vectoralg as vg
 
-
+def relative_error(M,E):
+  print("Relative error")
+  return M/E
 
 def absolute_error(a,n):
   if len(a)==n:
