@@ -12,9 +12,9 @@ import math as mt
 import numpy as np
 import vectoralg as vg
 
+
 def relative_error(M,E):
-  print("Relative error")
-  return M/E
+  print("Relative error",M/E)
 
 def Density(M,V):
   print("Density:",M/V)
