@@ -16,6 +16,9 @@ def relative_error(M,E):
   print("Relative error")
   return M/E
 
+def percentage_error(M,E):
+  print("Percentage Error:",(M/E)*100,"%")
+
 def absolute_error(a,n):
   if len(a)==n:
     A=np.array(a)
