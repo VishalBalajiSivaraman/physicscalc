@@ -16,6 +16,10 @@ def relative_error(M,E):
   print("Relative error")
   return M/E
 
+def area(L,B):
+  print("Area:",L*B)
+  
+
 def error_muldiv(a,b,c,d):
   x=((a/c)+(b/d))
   return x
