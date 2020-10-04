@@ -12,11 +12,20 @@ import math as mt
 import numpy as np
 import vectoralg as vg
 
-def absolute_error(a,n):
-  A=np.array(a)
-  S=np.sum(A)
-  E=S/n
-  print("absolute error",E)
-  
+
+
+def meanabsolute_error(a,n):
+  if(len(a)==n):
+    b=[]
+    for i in a:
+      b.append(abs(i))
+    A=np.array(b)
+    S=np.sum(A)
+    M=S/n
+    print("mean absolute error",M)
+  else:
+    print("error try again")
+
+
  
 
