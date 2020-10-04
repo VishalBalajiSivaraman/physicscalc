@@ -16,6 +16,9 @@ def relative_error(M,E):
   print("Relative error")
   return M/E
 
+def Density(M,V):
+  print("Density:",M/V)
+
 def volume(L,B,H):
   print("Volume:",L*B*H)
 
