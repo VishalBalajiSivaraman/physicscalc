@@ -16,6 +16,9 @@ def relative_error(M,E):
   print("Relative error")
   return M/E
 
+def volume(L,B,H):
+  print("Volume:",L*B*H)
+
 def area(L,B):
   print("Area:",L*B)
   
@@ -39,9 +42,7 @@ def absolute_error(a,n):
     print("absolute error",E)
   else:
     print("error try again")
-
-
-
+ 
 def meanabsolute_error(a,n):
   if(len(a)==n):
     b=[]
