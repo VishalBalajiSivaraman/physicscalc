@@ -9,7 +9,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md")) as f:
 setup(
   name = 'physicscalc',         
   packages = ['physicscalc'],
-  version = '0.3',
+  version = '0.4',
   license='MIT',
   description = 'This is the package that houses various functions which can be used to calculate values for problems involving circuit design , value of the components which are needed to construct the circuit and so on',
   long_description = long_description,
