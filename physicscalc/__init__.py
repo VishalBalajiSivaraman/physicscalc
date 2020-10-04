@@ -16,6 +16,10 @@ def relative_error(M,E):
   print("Relative error")
   return M/E
 
+def error_muldiv(a,b,c,d):
+  x=((a/c)+(b/d))
+  return x
+
 def error_addsub(a,b):
   p=(a+b)
   return p
